@@ -7,8 +7,8 @@ import pandas as pd
 import sys
 import os
 
-# Usage: lcms-pda <filename> <wavelength1> <wavelength2> <wavelength3> ....
-# Waters LCMS から出力したnetCDFファイルのうち最後のファイル。
+# Usage: python this_script.py <filename> <wavelength1> <wavelength2> <wavelength3> ....
+# <filename>: PDAデータのnetCDF ファイル = Waters LCMS から出力したnetCDFファイルのうち最後のファイル。
 # たとえばMS methodがMSscanのみ（←xxxx01.CDF）の場合は、xxxx02.CDFがAbsデータ。
 
 arguments = sys.argv[1:]
